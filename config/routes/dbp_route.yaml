@@ -1,0 +1,2 @@
+DbpRelayCoreBundle:
+    resource: "@DbpRelayCoreBundle/Resources/config/routing.yaml"

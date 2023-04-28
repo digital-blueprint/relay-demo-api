@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    image: relay-demo-api
+    build: .
+    container_name: relay-demo-api
+    restart: unless-stopped
+    ports:
+      # http://localhost:8081
+      - "8081:80"
+
+#  web:
+#    image: ghcr.io/digital-blueprint/relay-demo-api:main
+#    container_name: relay-demo-api
+#    restart: always
+#    ports:
+#      - "8081:80"
