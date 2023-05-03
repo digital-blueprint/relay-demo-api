@@ -46,6 +46,9 @@
             "config/packages/dbp_relay_auth.yaml"
         ]
     },
+    "dbp/relay-base-organization-bundle": {
+        "version": "v0.2.5"
+    },
     "dbp/relay-base-person-bundle": {
         "version": "v0.2.17"
     },

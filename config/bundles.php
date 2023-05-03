@@ -16,5 +16,6 @@ return [
     Doctrine\Bundle\DoctrineBundle\DoctrineBundle::class => ['all' => true],
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Dbp\Relay\DispatchBundle\DbpRelayDispatchBundle::class => ['all' => true],
+    Dbp\Relay\BaseOrganizationBundle\DbpRelayBaseOrganizationBundle::class => ['all' => true],
     Dbp\Relay\CoreBundle\DbpRelayCoreBundle::class => ['all' => true],
 ];

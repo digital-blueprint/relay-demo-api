@@ -20,6 +20,7 @@ and includes/integrates:
 composer create-project dbp/relay-server-template relay-demo-api "dev-main"
 cd relay-demo-api
 composer require --with-all-dependencies dbp/relay-base-person-bundle
+composer require --with-all-dependencies dbp/relay-base-organization-bundle
 composer require --with-all-dependencies dbp/relay-dispatch-bundle
 ```
 
