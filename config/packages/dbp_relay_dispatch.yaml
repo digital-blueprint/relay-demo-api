@@ -6,7 +6,7 @@ dbp_relay_dispatch:
   cert: '%env(base64:DISPATCH_CERT)%'
   cert_password: '%env(DISPATCH_CERT_PASSWORD)%'
   authorization:
-      roles:
+      policies:
           ROLE_GROUP_READER_METADATA: 'currentGroup.getIdentifier() in user.get("DISPATCH_READ_METADATA_GROUPS", [])'
           ROLE_GROUP_READER_CONTENT: 'currentGroup.getIdentifier() in user.get("DISPATCH_READ_CONTENT_GROUPS", [])'
           ROLE_GROUP_WRITER: 'currentGroup.getIdentifier() in user.get("DISPATCH_WRITE_GROUPS", [])'
