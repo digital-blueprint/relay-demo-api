@@ -374,21 +374,21 @@
         },
         {
             "name": "dbp/relay-base-organization-bundle",
-            "version": "v0.2.5",
+            "version": "v0.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digital-blueprint/relay-base-organization-bundle.git",
-                "reference": "f1d936bbe11a06847347e24b0fa40a63ef7dab4a"
+                "reference": "867dc01dc5f377f6c5a87a48f6654a28e942f725"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digital-blueprint/relay-base-organization-bundle/zipball/f1d936bbe11a06847347e24b0fa40a63ef7dab4a",
-                "reference": "f1d936bbe11a06847347e24b0fa40a63ef7dab4a",
+                "url": "https://api.github.com/repos/digital-blueprint/relay-base-organization-bundle/zipball/867dc01dc5f377f6c5a87a48f6654a28e942f725",
+                "reference": "867dc01dc5f377f6c5a87a48f6654a28e942f725",
                 "shasum": ""
             },
             "require": {
-                "api-platform/core": "^2.6.8",
-                "dbp/relay-core-bundle": "^0.1.91",
+                "api-platform/core": "^2.7.11",
+                "dbp/relay-core-bundle": "^0.1.98",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^7.0",
                 "nelmio/cors-bundle": "^2.1.0",
@@ -427,27 +427,27 @@
             ],
             "support": {
                 "issues": "https://github.com/digital-blueprint/relay-base-organization-bundle/issues",
-                "source": "https://github.com/digital-blueprint/relay-base-organization-bundle/tree/v0.2.5"
+                "source": "https://github.com/digital-blueprint/relay-base-organization-bundle/tree/v0.2.6"
             },
-            "time": "2023-04-13T10:56:45+00:00"
+            "time": "2023-05-09T14:19:40+00:00"
         },
         {
             "name": "dbp/relay-base-person-bundle",
-            "version": "v0.2.17",
+            "version": "v0.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digital-blueprint/relay-base-person-bundle.git",
-                "reference": "95775b528751cfb8abe5c52c02cdfee724921071"
+                "reference": "782312ca5edcdeb8cef0dc5664dede9f152187ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digital-blueprint/relay-base-person-bundle/zipball/95775b528751cfb8abe5c52c02cdfee724921071",
-                "reference": "95775b528751cfb8abe5c52c02cdfee724921071",
+                "url": "https://api.github.com/repos/digital-blueprint/relay-base-person-bundle/zipball/782312ca5edcdeb8cef0dc5664dede9f152187ef",
+                "reference": "782312ca5edcdeb8cef0dc5664dede9f152187ef",
                 "shasum": ""
             },
             "require": {
-                "api-platform/core": "^2.6.3",
-                "dbp/relay-core-bundle": "^0.1.91",
+                "api-platform/core": "^2.7.11",
+                "dbp/relay-core-bundle": "^0.1.98",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "^7.0",
                 "nelmio/cors-bundle": "^2.1.0",
@@ -486,9 +486,9 @@
             ],
             "support": {
                 "issues": "https://github.com/digital-blueprint/relay-base-person-bundle/issues",
-                "source": "https://github.com/digital-blueprint/relay-base-person-bundle/tree/v0.2.17"
+                "source": "https://github.com/digital-blueprint/relay-base-person-bundle/tree/v0.2.18"
             },
-            "time": "2023-04-24T07:04:25+00:00"
+            "time": "2023-05-09T13:34:44+00:00"
         },
         {
             "name": "dbp/relay-core-bundle",
