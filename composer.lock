@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "652700b54e6d542187d29270929ed23d",
+    "content-hash": "51cbf364f5bdf75559c2a5149309b3a7",
     "packages": [
         {
             "name": "api-platform/core",
@@ -575,16 +575,16 @@
         },
         {
             "name": "dbp/relay-dispatch-bundle",
-            "version": "v0.2.19",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digital-blueprint/relay-dispatch-bundle.git",
-                "reference": "8bdd7cc9862e0261934f5020ef4386526fb86ead"
+                "reference": "3f373f55ea4087db7c02508c3db6e7bd3e5770a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digital-blueprint/relay-dispatch-bundle/zipball/8bdd7cc9862e0261934f5020ef4386526fb86ead",
-                "reference": "8bdd7cc9862e0261934f5020ef4386526fb86ead",
+                "url": "https://api.github.com/repos/digital-blueprint/relay-dispatch-bundle/zipball/3f373f55ea4087db7c02508c3db6e7bd3e5770a1",
+                "reference": "3f373f55ea4087db7c02508c3db6e7bd3e5770a1",
                 "shasum": ""
             },
             "require": {
@@ -622,9 +622,9 @@
             ],
             "support": {
                 "issues": "https://github.com/digital-blueprint/relay-dispatch-bundle/issues",
-                "source": "https://github.com/digital-blueprint/relay-dispatch-bundle/tree/v0.2.19"
+                "source": "https://github.com/digital-blueprint/relay-dispatch-bundle/tree/v0.3.0"
             },
-            "time": "2023-05-04T08:19:31+00:00"
+            "time": "2023-05-08T07:13:51+00:00"
         },
         {
             "name": "dbp/relay-maker-bundle",
