@@ -492,16 +492,16 @@
         },
         {
             "name": "dbp/relay-core-bundle",
-            "version": "v0.1.101",
+            "version": "v0.1.103",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digital-blueprint/relay-core-bundle.git",
-                "reference": "8bb8519054401f9c8707abbbdaf4ccf7ad18f840"
+                "reference": "ba7595372088b8e33f53d68f37344d823613ae29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digital-blueprint/relay-core-bundle/zipball/8bb8519054401f9c8707abbbdaf4ccf7ad18f840",
-                "reference": "8bb8519054401f9c8707abbbdaf4ccf7ad18f840",
+                "url": "https://api.github.com/repos/digital-blueprint/relay-core-bundle/zipball/ba7595372088b8e33f53d68f37344d823613ae29",
+                "reference": "ba7595372088b8e33f53d68f37344d823613ae29",
                 "shasum": ""
             },
             "require": {
@@ -569,28 +569,28 @@
             "description": "The core bundle of the Relay API gateway",
             "support": {
                 "issues": "https://github.com/digital-blueprint/relay-core-bundle/issues",
-                "source": "https://github.com/digital-blueprint/relay-core-bundle/tree/v0.1.101"
+                "source": "https://github.com/digital-blueprint/relay-core-bundle/tree/v0.1.103"
             },
-            "time": "2023-05-11T07:07:46+00:00"
+            "time": "2023-05-17T12:00:58+00:00"
         },
         {
             "name": "dbp/relay-dispatch-bundle",
-            "version": "v0.3.0",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/digital-blueprint/relay-dispatch-bundle.git",
-                "reference": "3f373f55ea4087db7c02508c3db6e7bd3e5770a1"
+                "reference": "4d488e5cb56cc9ea9223591aee558eacf01a1074"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/digital-blueprint/relay-dispatch-bundle/zipball/3f373f55ea4087db7c02508c3db6e7bd3e5770a1",
-                "reference": "3f373f55ea4087db7c02508c3db6e7bd3e5770a1",
+                "url": "https://api.github.com/repos/digital-blueprint/relay-dispatch-bundle/zipball/4d488e5cb56cc9ea9223591aee558eacf01a1074",
+                "reference": "4d488e5cb56cc9ea9223591aee558eacf01a1074",
                 "shasum": ""
             },
             "require": {
-                "api-platform/core": "^2.6",
+                "api-platform/core": "^2.7.11",
                 "dbp/relay-base-person-bundle": "^0.2.15",
-                "dbp/relay-core-bundle": "^0.1.91",
+                "dbp/relay-core-bundle": "^0.1.98",
                 "ext-dom": "*",
                 "ext-simplexml": "*",
                 "ext-soap": "*",
@@ -607,6 +607,8 @@
                 "phpstan/phpstan-phpunit": "^1.0.0",
                 "phpstan/phpstan-symfony": "^1.2",
                 "phpunit/phpunit": "^9",
+                "symfony/browser-kit": "^5.4",
+                "symfony/http-client": "^5.4",
                 "symfony/phpunit-bridge": "^5.2",
                 "vimeo/psalm": "^4.2.1"
             },
@@ -622,9 +624,9 @@
             ],
             "support": {
                 "issues": "https://github.com/digital-blueprint/relay-dispatch-bundle/issues",
-                "source": "https://github.com/digital-blueprint/relay-dispatch-bundle/tree/v0.3.0"
+                "source": "https://github.com/digital-blueprint/relay-dispatch-bundle/tree/v0.3.1"
             },
-            "time": "2023-05-08T07:13:51+00:00"
+            "time": "2023-05-15T07:02:06+00:00"
         },
         {
             "name": "dbp/relay-maker-bundle",
@@ -1893,16 +1895,16 @@
         },
         {
             "name": "doctrine/persistence",
-            "version": "3.1.4",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/persistence.git",
-                "reference": "8bf8ab15960787f1a49d405f6eb8c787b4841119"
+                "reference": "63fee8c33bef740db6730eb2a750cd3da6495603"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/persistence/zipball/8bf8ab15960787f1a49d405f6eb8c787b4841119",
-                "reference": "8bf8ab15960787f1a49d405f6eb8c787b4841119",
+                "url": "https://api.github.com/repos/doctrine/persistence/zipball/63fee8c33bef740db6730eb2a750cd3da6495603",
+                "reference": "63fee8c33bef740db6730eb2a750cd3da6495603",
                 "shasum": ""
             },
             "require": {
@@ -1971,7 +1973,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/persistence/issues",
-                "source": "https://github.com/doctrine/persistence/tree/3.1.4"
+                "source": "https://github.com/doctrine/persistence/tree/3.2.0"
             },
             "funding": [
                 {
@@ -1987,7 +1989,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-03T11:13:07+00:00"
+            "time": "2023-05-17T18:32:04+00:00"
         },
         {
             "name": "doctrine/sql-formatter",
@@ -2180,16 +2182,16 @@
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
-            "version": "v1.0.14",
+            "version": "v1.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git",
-                "reference": "a527c9d9d5348e012bd24482d83a5cd643bcbc9e"
+                "reference": "3ca65b8edb8d96b46fedc9bb4911396516347129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/a527c9d9d5348e012bd24482d83a5cd643bcbc9e",
-                "reference": "a527c9d9d5348e012bd24482d83a5cd643bcbc9e",
+                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/3ca65b8edb8d96b46fedc9bb4911396516347129",
+                "reference": "3ca65b8edb8d96b46fedc9bb4911396516347129",
                 "shasum": ""
             },
             "require": {
@@ -2246,7 +2248,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/proxy-manager-lts/issues",
-                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.14"
+                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.15"
             },
             "funding": [
                 {
@@ -2258,20 +2260,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-30T10:40:19+00:00"
+            "time": "2023-05-16T13:18:04+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.6.0",
+            "version": "7.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "733dd89533dd371a0987172727df15f500dab0ef"
+                "reference": "8444a2bacf1960bc6a2b62ed86b8e72e11eebe51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/733dd89533dd371a0987172727df15f500dab0ef",
-                "reference": "733dd89533dd371a0987172727df15f500dab0ef",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8444a2bacf1960bc6a2b62ed86b8e72e11eebe51",
+                "reference": "8444a2bacf1960bc6a2b62ed86b8e72e11eebe51",
                 "shasum": ""
             },
             "require": {
@@ -2367,7 +2369,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.6.0"
+                "source": "https://github.com/guzzle/guzzle/tree/7.6.1"
             },
             "funding": [
                 {
@@ -2383,7 +2385,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-14T11:23:39+00:00"
+            "time": "2023-05-15T20:43:01+00:00"
         },
         {
             "name": "guzzlehttp/promises",
